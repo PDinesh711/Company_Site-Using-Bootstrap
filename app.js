@@ -57,6 +57,26 @@ function enter(){
       document.getElementById('invalid').innerHTML="Invalid Inputs"
       document.getElementById('invalid').style.color='red'
    }
+      
+      // 
+    if(username==="Dinesh711"){
+
+        document.getElementById('user_name').style.borderColor='green'
+        document.getElementById('user_name').style.transition='3s'
+       }
+       else{
+        document.getElementById('user_name').style.borderColor='red'
+        document.getElementById('user_name').style.transition='3s'
+       }
+       //
+       if(password==="2019Pitme116@"){
+        document.getElementById('pass_word').style.borderColor='green';
+        document.getElementById('pass_word').style.transition='3s'
+       }
+       else{
+        document.getElementById('pass_word').style.borderColor='red'
+        document.getElementById('pass_word').style.transition='3s'
+       }
   
 }
 // function dk(){
